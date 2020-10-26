@@ -4,16 +4,16 @@
 		{
 			"name": "Bash Snippets",
 			"description": "Bash snippets for Sublime Text",
-			"author": "Jean-Philippe BOLATRE",
-			"homepage": "https://github.com/Janfy/Sublime-Bash-Snippets",
-			"details": "https://github.com/Janfy/Sublime-Bash-Snippets",
-			"issues": "https://github.com/Janfy/Sublime-Bash-Snippets/issues",
-			"readme": "https://raw.github.com/Janfy/Sublime-Bash-Snippets/master/README.md",
+			"author": "Elia Ribaldone",
+			"homepage": "https://github.com/Elia1996/Sublime-Bash-Snippets",
+			"details": "https://github.com/Elia1996/Sublime-Bash-Snippets",
+			"issues": "https://github.com/Elia1996/Sublime-Bash-Snippets/issues",
+			"readme": "https://raw.github.com/Elia1996/Sublime-Bash-Snippets/master/README.md",
 			"labels": ["bash", "snippet"],
 			"releases": [
 				{
 					"sublime_text": "*",
-					"details": "https://github.com/Janfy/Sublime-Bash-Snippets/tree/master",
+					"details": "https://github.com/Elia1996/Sublime-Bash-Snippets/tree/master",
 					"platforms": ["windows", "osx", "linux"]
 				}
 			]
