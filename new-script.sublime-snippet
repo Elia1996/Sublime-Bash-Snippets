@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+#!/bin/bash
+
+UsageExit() {
+	cat <<-EOF
+
+	Usage: name 
+
+	PARAMETRES:
+	===========
+	    
+	OPTIONS:
+	========
+	    -h    help
+
+	EOF
+
+	exit 1
+}
+
+while getopts -o :${1:?}h --long :${1}:,help arg; do
+	case \$arg in
+		${1})
+			${0:: #statements}
+			;;
+		-h|--help)
+			UsageExit 
+			;;
+		\?) echo "Invalid option: -"$OPTARG"" >&2
+			UsageExit 
+			;;
+		: ) echo "Option -"$OPTARG" requires an argument." >&2
+			UsageExit
+		    ;;
+	esac
+done
+]]></content>
+	<tabTrigger>newbash</tabTrigger>
+	<scope>source.shell</scope>
+	<description>usage and getopts</description>
+</snippet>
